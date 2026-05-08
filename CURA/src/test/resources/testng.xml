@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CuraHealthSuite">
+
+    <listeners>
+
+        <listener class-name="listeners.TestListener"/>
+
+    </listeners>
+
+    <test name="Login Tests">
+
+        <classes>
+
+            <class name="tests.LoginTest"/>
+            <class name="tests.AppointmentTest"/>
+            <class name="tests.HistoryTest"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
